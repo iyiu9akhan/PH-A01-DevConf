@@ -23,7 +23,6 @@ header .header_wrapper {
   align-items: center;
 }
 header .header_wrapper a {
-  /* display: inline-block; */
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -47,8 +46,9 @@ header .header_wrapper ul {
   gap: 24px;
 }
 header .header_wrapper ul li a {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 25.6px;
   color: #575757;

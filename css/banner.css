@@ -1,0 +1,66 @@
+.banner {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 80%),
+    linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%),
+    url("./../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner .banner_wrapper {
+  /* padding: 100px 40px; */
+  position: relative;
+  padding-top: 136px;
+  padding-bottom: 79px;
+  text-align: center;
+}
+/* .banner .banner_wrapper img {
+  width: 100%;
+  height: 786px;
+} */
+.banner .banner_heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: -3.2px;
+  margin-bottom: 32px;
+}
+.banner .banner_heading span {
+  font-style: italic;
+}
+.banner .banner_info {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  /* text-transform: capitalize; */
+  opacity: 0.8;
+  max-width: 829px;
+  margin: 0 auto;
+}
+.banner .banner_wrapper button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: 1px solid #1d4ed8;
+  padding: 25px 62.5px;
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  margin-top: 312px;
+}
+
+.banner .banner_wrapper button:hover {
+  background-color: #1d4fd8be;
+  border: 1px solid #1d4ed8;
+  transition: all linear 0.2s;
+}
