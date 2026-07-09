@@ -1,5 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000000;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+header .header_wrapper {
+  margin-top: 23.5px;
+  margin-bottom: 23.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_wrapper a {
+  /* display: inline-block; */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  /* background-color: red; */
+}
+header .header_wrapper p {
+  font-family: "Arimo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: -0.6px;
+  color: #0d1b2a;
+}
+header .header_wrapper span {
+  display: block;
+}
+header .header_wrapper ul {
+  display: flex;
+  gap: 24px;
+}
+header .header_wrapper ul li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #575757;
+  text-transform: capitalize;
+  transition: all linear 0.2s;
+}
+header .header_wrapper ul li a:hover {
+  color: #1d4ed8;
+  transition: all linear 0.2s;
+}
+header .header_wrapper button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: 1px solid #1d4ed8;
+  padding: 12px 41.5px;
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+header .header_wrapper button:hover {
+  background-color: transparent;
+  border: 1px solid #1d4ed8;
+  color: #0d1b2a;
+  transition: all linear 0.2s;
 }
