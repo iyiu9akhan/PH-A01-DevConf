@@ -32,7 +32,7 @@
   line-height: 18px;
   letter-spacing: 0.3px;
   color: #2563eb;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 8px;
 }
 #speakers .speaker_name {
@@ -49,5 +49,5 @@
   font-weight: 400;
   line-height: 21px;
   color: #575757;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }

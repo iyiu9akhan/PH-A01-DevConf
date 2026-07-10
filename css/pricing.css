@@ -1,0 +1,138 @@
+#pricing{
+    margin-bottom: 50px;
+}
+#pricing .header {
+  font-family: "Inter", sans-serif;
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #0d1b2a;
+  text-transform: capitalize;
+}
+#pricing .header_subtitle {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #575757;
+  margin-bottom: 12px;
+}
+#pricing .pricing_list {
+  padding: 48px 80px 0 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+#pricing .pricing_list .highlight {
+  background-color: #0d1b2a;
+}
+#pricing .pricing_item {
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+#pricing .highlight {
+  border: 1px solid #0d1b2a;
+}
+#pricing .price_label {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19.5px;
+  letter-spacing: 0.32px;
+  color: #888888;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+#pricing .highlight .price_label {
+  color: #93c5fd;
+}
+#pricing .price_value {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 44px;
+  color: #0d1b2a;
+}
+#pricing .highlight .price_value {
+  color: #ffffff;
+}
+#pricing .price_subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.5px;
+  color: #888888;
+  text-transform: capitalize;
+  margin-top: 4px;
+  /* margin-bottom: 20px; */
+}
+#pricing .highlight .price_subtitle {
+  color: #ffffff;
+  opacity: 0.5;
+}
+#pricing .pricing_list hr {
+  border: 1px solid #e5e7eb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#pricing .highlight hr {
+  border: 1px solid #ffffff;
+  opacity: 0.1;
+}
+#pricing .pricing_details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#pricing .pricing_details ul li {
+  list-style-type: disc;
+  margin-left: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-transform: capitalize;
+}
+#pricing .highlight ul li {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+#pricing .pricing_details ul li::marker {
+  color: #2563eb;
+}
+#pricing .highlight ul li::marker {
+  color: #60a5fa;
+}
+#pricing button {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* color: #2563eb; */
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 11px 106px;
+  width: 304px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  background-color: #2563eb;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+#pricing button:hover {
+  background-color: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  transition: all linear 0.2s;
+}
+#pricing .highlight button:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
