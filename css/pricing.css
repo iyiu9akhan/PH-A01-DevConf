@@ -68,7 +68,6 @@
   color: #888888;
   text-transform: capitalize;
   margin-top: 4px;
-  /* margin-bottom: 20px; */
 }
 #pricing .highlight .price_subtitle {
   color: #ffffff;
@@ -115,7 +114,6 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
-  /* color: #2563eb; */
   color: #ffffff;
   text-transform: capitalize;
   padding: 11px 106px;
