@@ -1,0 +1,10 @@
+#speakers .speakers_wrapper h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  color: #000102;
+  /* text-transform: capitalize; */
+  margin-bottom: 56px;
+}

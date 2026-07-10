@@ -5,6 +5,7 @@
     url("./../img/banner.jpg");
   background-size: cover;
   background-position: center;
+  margin-bottom: 80px;
 }
 .banner .banner_wrapper {
   /* padding: 100px 40px; */
