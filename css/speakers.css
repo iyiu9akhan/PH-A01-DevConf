@@ -8,3 +8,46 @@
   /* text-transform: capitalize; */
   margin-bottom: 56px;
 }
+#speakers .speakers_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  /* background-color: red; */
+  margin-bottom: 136px;
+}
+#speakers .speakers_item {
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+#speakers .speakers_item img {
+  border-radius: 12px 12px 0 0;
+}
+#speakers .speakers_details {
+  padding: 24px;
+}
+#speakers .job_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  color: #2563eb;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+#speakers .speaker_name {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.5px;
+  color: #0d1b2a;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+#speakers .company_name {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  color: #575757;
+  text-transform: capitalize;
+}
