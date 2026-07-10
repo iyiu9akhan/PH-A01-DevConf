@@ -1,0 +1,70 @@
+/* #footer .footer_wrapper a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+#footer .footer_wrapper p {
+  font-family: "Arimo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: -0.6px;
+  color: #0d1b2a;
+}
+#footer .footer_wrapper span {
+  display: block;
+} */
+#footer {
+  background-color: #0d1b2a;
+  /* padding: 60px 0; */
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#footer .footer_links {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  align-items: center;
+}
+#footer .social_icons {
+  display: flex;
+  gap: 20px;
+}
+#footer .social_icons img {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+#footer hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 40px 0;
+  opacity: 0.2;
+}
+#footer .footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer_copyright {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #ffffff;
+  opacity: 0.4;
+}
+#footer .footer_legal {
+  display: flex;
+  gap: 24px;
+}
+#footer .footer_legal .legal_link {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #ffffff;
+  opacity: 0.4;
+}
